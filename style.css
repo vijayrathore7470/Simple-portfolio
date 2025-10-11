@@ -327,86 +327,75 @@ ul li{
 .dn{
     display: none;
 }
-@media (max-width: 768px){
-    .menu-sec ul{
-        display: none;
-    }
-    .db{
-        display: none !important;
-    }
-   
-    .dn {
-        display: block;
-    }
-    .sing-in button{
-        display: none;
-    }
-    .hero-sec{
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .hero-sec3{
-        display: none;
-    }
-    .hero-sec2 img{
-        width: 150px;
-        height: 60vh ;
-    } 
-    nav{
-        padding: 10px 10px;
-        margin-left: 50px;
-    }
-    .logo-sec{
-        padding-left: 10px;
-    }
-    .hero-sec1 h1{
-        font-size: 20px;
-    }
-    .hero-sec1 p{
-        font-size: 8px;
-        width: 100px;
-    }
-    .hero-sec1{
-        padding: 5px 30px;
-    }
-    .hero-sec1 button{
-         width: 100px;
-        height: 10vh;
-        font-size: 10px;
-    }
-    .zero-sec{
-           flex-direction: column;
-    }
-    .zero-img img{
-        width: 150px;
-    }
-    .zero-text h1{
-        font-size: 10px;
-    }
-    .zero-text p{
-        font-size: 8px;
-    }
-    .btn3 button{
-        width: 100px;
-        height: 10vh;
-        font-size: 10px;
-    }
-    .upper-box{
-        flex-direction: column;
-    }
-    .lower-box{
-        flex-direction: column;
-    }
-    .box1,.box2,.box3{
-        font-size: 10px;
-    }
+@media (max-width: 768px) {
+width: 60%;
+justify-content: space-around;
 }
-@media (max-width:340px){
-    .logo-sec{
-        font-size: 10px;
-    }
-    .logo-sec img {
-        width: 100%;
-        height: 5vh;
-    }
+}
+
+
+@media (max-width: 360px) {
+.hero-sec1 h1 {
+font-size: 20px;
+}
+.hero-sec1 p {
+font-size: 10px;
+}
+.zero-text h1 {
+font-size: 16px;
+}
+.zero-text p {
+font-size: 10px;
+}
+.box1, .box2, .box3, .box4, .box5, .box6 {
+font-size: 12px;
+height: auto;
+}
+}
+
+
+@media (max-width: 240px) {
+nav {
+flex-direction: column;
+gap: 5px;
+height: auto;
+}
+.logo-sec img {
+width: 25px;
+height: 25px;
+}
+.logo-sec h4 {
+font-size: 10px;
+}
+.hero-sec1 h1 {
+font-size: 14px;
+}
+.hero-sec1 p {
+font-size: 8px;
+width: 100%;
+}
+.hero-sec2 img {
+width: 120px;
+height: 120px;
+}
+.btn2 button, .btn3 button {
+width: 80px;
+height: 5vh;
+font-size: 8px;
+}
+.zero-text p {
+font-size: 8px;
+}
+.box1, .box2, .box3, .box4, .box5, .box6 {
+width: 100%;
+font-size: 10px;
+}
+.bottom-sec p {
+width: 90%;
+font-size: 9px;
+}
+.social {
+width: 80%;
+font-size: 12px;
+}
 }
