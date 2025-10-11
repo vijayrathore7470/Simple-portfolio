@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body p{
+    font-family:sans-serif;
+}
+#big-video{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index:-1;
+    min-height: 100%;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid grey;
+    backdrop-filter: blur(100px);
+}
+.logo-sec{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.logo-sec img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.logo-sec h4{
+    padding-left: 5px;
+    cursor: pointer;
+    
+}
+.logo-sec img{
+    border-radius: 18px;
+}
+.menu-sec{
+width: 49%;
+}
+.menu-icon1 {
+    width: 18px;
+    height: 3px;
+    background-color: rgb(26, 25, 25);
+    margin: 6px 0;
+}
+.menu-sec ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    color: white;
+}
+.menu-sec ul li:hover{
+    color:black;
+}
+ul li{
+    list-style: none;
+}
+.sing-in{
+    width: 19%;
+    display: flex;
+    justify-content: end;
+    
+
+}
+.sing-in button{
+    font-size: 18px;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 25px;
+    background-color: #d86c14;
+    border: none;
+    cursor: pointer;
+
+}
+.hero-sec{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-sec1{
+    width: 60%;
+    padding: 100px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-sec1 h1{
+    font-size: 90px;
+}
+.hero-sec1 p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.btn2{
+    width: 25%;
+    padding-top: 30px;
+
+}
+.hero-sec1 button{
+    font-size: 15px;
+    color: rgb(189 177 89);
+    border-radius: 25px;
+   background-color: transparent;
+    border: 1px solid rgb(24, 23, 23);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    width: 90%;
+    height: 8vh;
+}
+.hero-sec2{
+    width: 40%;
+}
+.hero-sec2 img{
+    width: 100%;
+    height: 90%;
+    border-radius: 250px;
+    border: 5px ridge cadetblue;
+}
+.hero-sec3{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-sec3 h1{
+    font-size: 20px;
+    writing-mode: vertical-rl;
+    letter-spacing: 30px;
+    color: gray;
+    
+}
+.zero-sec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.zero-img{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.zero-img img{
+    width: 60%;
+    height: 100%;
+    border-radius: 200px;
+}
+.zero-text{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+    padding: 10px 50px;
+    color: white;
+
+}
+.zero-text p{
+    font-size: 17px;
+}
+.btn3{
+     width: 25%;
+    
+
+}
+.btn3 button{
+    font-size: 15px;
+    color: rgb(189 177 89);
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid rgb(24, 23, 23);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    width: 90%;
+    height: 8vh;
+}
+
+.mid-zero{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+}
+.one-sec{
+    padding: 15px 50px;
+}
+.upper-box,.lower-box{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 15px;
+
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    margin: 0px 10px;
+    width: 30%;
+    height: 40vh;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px 30px;
+    gap: 10px;
+    font-size: 25px;
+   background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid rgb(24, 23, 23);
+    backdrop-filter: blur(10px);
+    
+}
+.box1 p,.box2 p,.box3 p,.box4 p,.box5 p,.box6 p{
+    font-size: 20px;
+}
+.two-sec{
+    width: 100%;
+    padding: 40px 50px;
+}
+.two-sec p,.two-sec h1{
+    width: 50%;
+    font-size: 20px;
+    padding: 15px 50px;
+}
+.box1 img{
+    width: 100%;
+}
+.upper1-box,.lower1-box{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 5px;
+
+}
+.box11,.box22,.box33,.box44,.box55,.box66{
+    margin: 0px 10px;
+    width: 30%;
+    height: 40vh;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+    color: white;
+    
+    
+}
+.box11 img,.box22 img,.box33 img,.box44 img,.box55 img,.box66 img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.three-sec{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.three-box{
+    width: 85%;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid rgb(24, 23, 23);
+    backdrop-filter: blur(10px);
+}
+.three-box1,.three-box2,.three-box3{
+    width: 33%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.bottom-sec{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 100px 0px;
+}
+.bottom-sec img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.bottom-sec p{
+    width: 50%;
+}
+.social{
+    padding: 10px 10px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-p p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.dn{
+    display: none;
+}
+@media (max-width: 768px){
+    .menu-sec ul{
+        display: none;
+    }
+    .db{
+        display: none !important;
+    }
+   
+    .dn {
+        display: block;
+    }
+    .sing-in button{
+        display: none;
+    }
+    .hero-sec{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .hero-sec3{
+        display: none;
+    }
+    .hero-sec2 img{
+        width: 150px;
+        height: 60vh ;
+    } 
+    nav{
+        padding: 10px 10px;
+        margin-left: 50px;
+    }
+    .logo-sec{
+        padding-left: 10px;
+    }
+    .hero-sec1 h1{
+        font-size: 20px;
+    }
+    .hero-sec1 p{
+        font-size: 8px;
+        width: 100px;
+    }
+    .hero-sec1{
+        padding: 5px 30px;
+    }
+    .hero-sec1 button{
+         width: 100px;
+        height: 10vh;
+        font-size: 10px;
+    }
+    .zero-sec{
+           flex-direction: column;
+    }
+    .zero-img img{
+        width: 150px;
+    }
+    .zero-text h1{
+        font-size: 10px;
+    }
+    .zero-text p{
+        font-size: 8px;
+    }
+    .btn3 button{
+        width: 100px;
+        height: 10vh;
+        font-size: 10px;
+    }
+    .upper-box{
+        flex-direction: column;
+    }
+    .lower-box{
+        flex-direction: column;
+    }
+    .box1,.box2,.box3{
+        font-size: 10px;
+    }
+}
+@media (max-width:340px){
+    .logo-sec{
+        font-size: 10px;
+    }
+    .logo-sec img {
+        width: 100%;
+        height: 5vh;
+    }
+}
