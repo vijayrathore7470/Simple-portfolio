@@ -241,30 +241,48 @@ ul li{
 .box1 img{
     width: 100%;
 }
-.upper1-box,.lower1-box{
-    display: flex;
-    justify-content:center;
-    padding-bottom: 5px;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+    padding: 15px;
 
 }
-.box11,.box22,.box33,.box44,.box55,.box66{
-    margin: 0px 10px;
-    width: 30%;
-    height: 40vh;
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 25px;
-    color: white;
-    
-    
-}
-.box11 img,.box22 img,.box33 img,.box44 img,.box55 img,.box66 img{
+.box img{
     width: 100%;
-    border-radius: 20px;
+    height: 100%;
+    border-radius: 15px;
+}
+.a {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
 
+.b {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.c {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.d {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.e {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.f{
+    grid-column: 3/4;
+    grid-row:2/3;
 }
 .three-sec{
     width: 100%;
@@ -272,7 +290,6 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .three-box{
     width: 85%;
